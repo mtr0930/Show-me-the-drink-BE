@@ -9,7 +9,7 @@ from ocr import ocr_prediction
 from set_vars import drink_names
 
 
-db = pymysql.connect(host="localhost", user="root", passwd="chomu8910!", db="graduation_project", charset="utf8", port=3300)
+db = pymysql.connect(host="localhost", user="root", passwd="****", db="graduation_project", charset="utf8", port=3300)
 cur = db.cursor()
 sql = "SELECT * from drinks"
 cur.execute(sql)

@@ -2,11 +2,11 @@
 
 ### 1. Environment
 
-<aside>
- **📌IDE : PyCharm
-     Language : Python**
+```
+     📌IDE : PyCharm
+     Language : Python
+```
 
-</aside>
 
 ### 2. 파일 별 기능 설명
 

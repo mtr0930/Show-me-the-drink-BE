@@ -3,8 +3,8 @@
 ### 1. Environment
 
 <aside>
-📌 **IDE : PyCharm
-Language : Python**
+ **📌IDE : PyCharm
+     Language : Python**
 
 </aside>
 

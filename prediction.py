@@ -25,7 +25,7 @@ def predict(data_path):
     max_index = np.argmax(score)
 
     print(score)
-    class_names = ["cider", "coke", "fanta", "milkis", "monster", "mtdew", "pepsi", "soda", "sprite", "toreta", "welchis"]
+    class_names = ["cider", "coke", "fanta", "milkis", "monster", "mtdew", "pepsi", "soda", "sprite", "toreta", "welchis", "none"]
     pr_result = class_names[max_index]
     print(
         "This image most likely belongs to {} with a {:.2f} percent confidence."

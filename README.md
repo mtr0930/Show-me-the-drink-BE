@@ -7,6 +7,8 @@
 Language : Python
 ```
 
+----
+
 
 ### 2. 파일 별 기능 설명
 
@@ -16,7 +18,7 @@ Language : Python
 이미지 분류 모델은 12개 종류의 음료수 외에 구분할 수 없는 dump 이미지들을 학습시키고 `none`이라는 
 레이블을 부여 했고  `none` 이라는 레이블로 분류될 경우에만 OCR을 API를 호출하여 분류의 정확도를 높였다.
 > 
-- [ocr.py](http://ocr.py) 코드
+- ocr.py 코드
     
     ```python
     def ocr(img_path):

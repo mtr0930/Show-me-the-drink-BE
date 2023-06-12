@@ -3,8 +3,8 @@
 ### 1. Environment
 
 ```
-     📌IDE : PyCharm
-     Language : Python
+📌 IDE : PyCharm
+Language : Python
 ```
 
 

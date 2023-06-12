@@ -89,6 +89,7 @@ Language : Python
 
 > TensorFlow 라이브러리를 이용해서 학습 시킨 모델을 연동하고 predict 함수를 통해
 모델의 입력 조건에 맞게 데이터를 넣어주면 13개 분류 결과 중 하나를 출력한다
+
 음료수 종류 
 **"cider", "coke", "fanta", "milkis"
 , "monster", "mtdew", "pepsi"
@@ -125,8 +126,8 @@ Language : Python
 
 ### webserver.py
 
-> Flask 서버를 구동하기 위한 몸통 코드이다.  MySQL DB와 연동하고 `/uploadfile` 
-경로로 요청이 들어오면 메인 로직으로 처리하고 결과를 JSON타입으로 리턴해준다.
+> Flask 서버를 구동하기 위한 몸통 코드이다.  
+MySQL DB와 연동하고 `/uploadfile` 경로로 요청이 들어오면 메인 로직으로 처리하고 결과를 JSON타입으로 리턴해준다.
 > 
 - webserver.py 코드
     

@@ -15,7 +15,7 @@ Language : Python
 ### ocr.py
 
 > Google Cloud Vision API 라이브러리 함수를 활용해서 OCR 기능을 구현하였다.
-이미지 분류 모델은 12개 종류의 음료수 외에 구분할 수 없는 dump 이미지들을 학습시키고 `none`이라는 
+이미지 분류 모델은 11개 종류의 음료수 외에 구분할 수 없는 dump 이미지들을 학습시키고 `none`이라는 
 레이블을 부여 했고  `none` 이라는 레이블로 분류될 경우에만 OCR을 API를 호출하여 분류의 정확도를 높였다.
 > 
 - ocr.py 코드
@@ -88,7 +88,7 @@ Language : Python
 ### prediction.py
 
 > TensorFlow 라이브러리를 이용해서 학습 시킨 모델을 연동하고 predict 함수를 통해
-모델의 입력 조건에 맞게 데이터를 넣어주면 13개 분류 결과 중 하나를 출력한다
+모델의 입력 조건에 맞게 데이터를 넣어주면 12개 분류 결과 중 하나를 출력한다
 
 음료수 종류 
 **"cider", "coke", "fanta", "milkis"
